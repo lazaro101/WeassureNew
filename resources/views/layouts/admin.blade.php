@@ -22,7 +22,7 @@
                 <ul class="navbar-nav">  
                     <li class="nav-item">
                         <a class="nav-link" href="/Admin/Employees">
-                            <!-- <i class="fa fa-home"></i> --><p>Employees</p>
+                            <p>Employees</p>
                         </a>
                     </li> 
                     <li class="nav-item">
@@ -58,23 +58,28 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="https://www.creative-tim.com">
-                                Creative Tim
+                            <a href="/Admin">
+                                Home
                             </a>
                         </li>
                         <li>
-                            <a href="http://presentation.creative-tim.com">
-                                About Us
+                            <a href="/Admin/Employees">
+                                Employees
                             </a>
                         </li>
                         <li>
-                            <a href="http://blog.creative-tim.com">
-                                Blog
+                            <a href="/Admin/Products">
+                                Products
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
-                                MIT License
+                            <a href="/Admin/Updates">
+                                Updates
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Admin/Gallery">
+                                Gallery
                             </a>
                         </li>
                     </ul>
@@ -83,9 +88,7 @@
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, Designed by
-                    <a href="http://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-                    <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+                    </script>, WEASSURE.COM
                 </div>
             </div>
         </footer>

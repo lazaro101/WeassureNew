@@ -51,7 +51,10 @@ class WebController extends Controller
     	return view('web.products',compact('data'));
     }
     public function Updates(){
-    	return view('web.updates');
+        $pic1 = News::orderby('news_id','DESC')->first();
+        $pic2 = NewProducts::orderby('np_id','DESC')->first();
+        $pic3 = Achiever::orderby('achiever_id','DESC')->first();   
+    	return view('web.updates',compact('pic1','pic2','pic3'));
     }
     public function About(){
         $content = Content::where('deleted',0)->get();

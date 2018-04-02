@@ -15,7 +15,7 @@ Route::get('/','WebController@Home');
 Route::get('/Product','WebController@Products');
 Route::get('/Gallery','WebController@Gallery');
 Route::get('/Gallery/{id}',['uses' => 'WebController@GalleryPics']);
-Route::get('/Updates','WebController@Updates');
+Route::get('/Update','WebController@Updates');
 Route::get('/About','WebController@About');
 
 Route::get('/Login','WebController@Login');

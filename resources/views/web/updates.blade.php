@@ -27,7 +27,7 @@ hr {
 				</div>
 				<div class="space-50"></div>
 				<center>
-					<img src="{{asset('SystemImages/NOIMAGE.jpg')}}" alt="Raised Image" class="rounded img-raised"> 
+					<img src="@if($pic1 != ''){{asset($pic1->news_path)}}@else{{asset('SystemImages/NOIMAGE.jpg')}}@endif" alt="Raised Image" class="rounded img-raised"> 
 				</center>
 			</div>
 		</div>
@@ -41,7 +41,7 @@ hr {
 				</div>  
 				<div class="space-50"></div>
 				<center>
-					<img src="{{asset('nowui/assets/img/avatar.jpg')}}" alt="Raised Image" class="rounded img-raised"> 
+					<img src="@if($pic2 != ''){{asset($pic2->np_path)}}@else{{asset('SystemImages/NOIMAGE.jpg')}}@endif" alt="Raised Image" class="rounded img-raised"> 
 				</center>
 			</div>
 		</div>
@@ -55,7 +55,7 @@ hr {
 				</div>
 				<div class="space-50"></div>
 				<center>
-					<img src="{{asset('nowui/assets/img/avatar.jpg')}}" alt="Raised Image" class="rounded img-raised"> 
+					<img src="@if($pic3 != ''){{asset($pic3->achiever_path)}}@else{{asset('SystemImages/NOIMAGE.jpg')}}@endif" alt="Raised Image" class="rounded img-raised"> 
 				</center>
 			</div>
 		</div>

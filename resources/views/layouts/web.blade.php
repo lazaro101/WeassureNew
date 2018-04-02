@@ -30,7 +30,7 @@
                         </a>
                     </li> 
                     <li class="nav-item">
-                        <a class="nav-link" href="/Updates">
+                        <a class="nav-link" href="/Update">
                             <p>Updates</p>
                         </a>
                     </li> 
@@ -67,7 +67,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/Updates">
+                            <a href="/Update">
                                 Updates
                             </a>
                         </li>
@@ -83,8 +83,6 @@
                     <script>
                         document.write(new Date().getFullYear())
                     </script>, WEASSURE.COM
-            <!--         <a href="http://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-                    <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>. -->
                 </div>
             </div>
         </footer>
