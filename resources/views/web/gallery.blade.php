@@ -13,7 +13,7 @@
 
 @section('content')
 <div class="page-header">
-    <div class="page-header-image" data-parallax="true" style="background-image: url('SystemImages/update.jpg') ;"></div>
+    <div class="page-header-image" data-parallax="true" style="background-image: url('SystemImages/update.jpg') ; background-size: 200% 100%;"></div>
 </div>
 
 <div class="section"> 

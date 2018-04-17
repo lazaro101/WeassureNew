@@ -51,6 +51,7 @@
 		<div class="space-100"></div>
 		<center>
 			<h2>APPLY NOW!</h2>
+			<img src="{{asset('SystemImages/career.jpg')}}" alt="Raised Image" class="rounded img-raised">
 		</center>
 		<div class="row">
 			<div class="col-md-6">

@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="page-header">
-    <div class="page-header-image" data-parallax="true" style="background-image: url({{asset('SystemImages/about.jpg')}}) ;"></div>
+    <div class="page-header-image" data-parallax="true" style="background-image: url({{asset('SystemImages/about.jpg')}}) ; background-size: 200% 100%;"></div>
 </div>
 
 <div class="section">
@@ -41,6 +41,8 @@
 				<h2 style="text-align: center">DEALERS</h2>
 				<hr> 
 				<div style="width: 80%; margin-left: 10%;">
+				<img src="{{asset('SystemImages/tarp.jpg')}}" alt="Raised Image" class="rounded img-raised">
+				<div class="space-50"></div>
 					<table class="table table-striped">
 						<tbody>
 							<tr>
@@ -67,38 +69,6 @@
 				<hr>
 				<img class="d-block rounded img-raised" src="{{asset('SystemImages/providers.jpg')}}" alt="First slide" align="middle">
 				
-				<!-- <div class="section" id="carousel">
-			        <div class="container">
-			            <div class="row justify-content-center">
-			                <div class="col-md-8">
-			                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			                        <ol class="carousel-indicators"> 
-			                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> 
-			                            <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li> 
-			                            <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li> 
-			                        </ol>
-			                        <div class="carousel-inner" role="listbox"> 
-			                            <div class="carousel-item active">
-			                                <img class="d-block" src="{{asset('nowui/assets/img/avatar.jpg')}}" alt="First slide" align="middle">
-			                            </div>  
-			                            <div class="carousel-item">
-			                                <img class="d-block" src="{{asset('nowui/assets/img/avatar.jpg')}}" alt="First slide" align="middle">
-			                            </div>  
-			                            <div class="carousel-item">
-			                                <img class="d-block" src="{{asset('nowui/assets/img/avatar.jpg')}}" alt="First slide" align="middle">
-			                            </div>  
-			                        </div>
-			                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			                            <i class="now-ui-icons arrows-1_minimal-left"></i>
-			                        </a>
-			                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			                            <i class="now-ui-icons arrows-1_minimal-right"></i>
-			                        </a>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-			    </div> -->
 			</div>
 		</div>
 	</div>

@@ -16,7 +16,7 @@ hr {
 @endsection
 @section('content')
 <div class="page-header">
-    <div class="page-header-image" data-parallax="true" style="background-image: url({{asset('SystemImages/update.jpg')}}) ;"></div>
+    <div class="page-header-image" data-parallax="true" style="background-image: url({{asset('SystemImages/update.jpg')}}); background-size: 200% 100%;"></div>
 </div> 
 <div class="section">
 	<div class="container">
